@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+       .ragul-img{
+        width: 200px;
+        height:200px;
+        border-radius: 100%;
+     }
+     .whole{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+     }
+     .ragul{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin: 50px;
+       border: 2px solid ;
+       padding: 10px;
+       border-radius: 10px;
+     }
+     .ragul h1{
+        font-size: 35px;
+        font-style: italic;
+        font-weight: bolder;
+     }
+     .ragul h3{
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bolder;
+     }
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <div class="ragul">
+             <div >
+            <img class="ragul-img" src="./ragul.jpg" alt="">
+            </div>
+        <h1>Ragul</h1>
+        <h3>Aspiring Artificial Intelligence developer</h3>
+         
+        </div>
+       
+    </div>
+</body>
+</html>
+
+
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/Logeswaran-01/ragul-card.git
+
+git branch -M main
+git push -u origin main
+
+git config --global user.name "Ragul-20"
+git config --global user.email "ragulsekar008@gmail.com"
